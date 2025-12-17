@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+roboticstoolbox-python = "==1.1.1"
+spatialmath-python = "==1.1.14"
+spatialgeometry = "==1.1.0"
+rtb-data = "==1.0.1"
+swift-sim = "==1.1.0"
+websockets = "==13.1"
+aioice = "==0.10.1"
+aiortc = "==1.13.0"
+pyee = "==13.0.0"
+numpy = "==1.26.4"
+scipy = "==1.16.0"
+matplotlib = "==3.10.3"
+plotly = "==6.5.0"
+pandas = "==2.3.3"
+cycler = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
